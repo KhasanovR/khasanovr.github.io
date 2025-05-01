@@ -1,0 +1,27 @@
+title: Rakhmatjon Khasanov
+url: "https://khasanovr.github.io"
+baseurl: ""
+
+remote_theme: ankitsultana/researcher@gem
+
+markdown: kramdown
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://github.com/KhasanovR/khasanovr.github.io"
+footer_text: "Page design by Rakhmatjon Khasanov"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/"
+ - name: "Blog"
+   link: "https://khasanovr.github.io/blog"
+ - name: "Resume"
+   link: "resume.pdf"
+ - name: "Contact"
+   link: "contact"
