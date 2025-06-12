@@ -8,17 +8,10 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg, #f9f9fb 0%, #ffe3e3 50%, #e3f0ff 100%);
-    background-size: 200% 200%;
-    animation: gradientMove 8s ease-in-out infinite;
+    background: $background;
     color: $text;
     font-size: 18px;
     line-height: 1.6;
-}
-@keyframes gradientMove {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
 }
 body {
     margin: 0;
